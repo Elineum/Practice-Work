@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,61 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+section {
+  background-color: #FF7F57;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 434px;
+}
+
+.content {
+  max-width: 970px;
+  text-align: center;
+}
+.content__head {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  margin-bottom: 4px;
+}
+.content__strong {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 63px;
+  color: #F4F6F7;
+}
+.content__hold {
+  max-width: 770px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+.content__btn {
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23px;
+  background: #2557AB;
+  -webkit-box-shadow: 0 10px 20px #13253A;
+          box-shadow: 0 10px 20px #13253A;
+  border-radius: 3px;
+  padding: 15px 100px;
+  cursor: pointer;
 }
