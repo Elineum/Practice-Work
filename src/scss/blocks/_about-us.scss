@@ -16,43 +16,40 @@
    color: $black;
    font-size: 38px;
    font-weight: 700;
+   padding-bottom: 30px;
 }
 
 
 &__wrapper{
+   padding-top: 30px;
    display: flex;
    justify-content: space-between;
+   padding: 0 10px;
 }
 &__description-col1{
    max-width: 370px;
    font-size: 20px;
    line-height: 30px;
+   font-style: italic;
    
-   p .ital{
-      font-style: italic;
-   }
 }
-
-
-
 &__description-col2{
    max-width: 570px;
    font-size: 16px;
    font-weight: 400;
    line-height: 27px;
-   
 }
-
-
 &__list{
+   padding-top: 60px;
    list-style-type: none;
    display: flex;
    justify-content: space-between;
    align-items: center;
-
+   flex-wrap: wrap;
+   text-align: center;
 }
-   
-
-
-
+&__link{
+   display: block;
+   padding: 0 10px;
+}
 }

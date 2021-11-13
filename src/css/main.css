@@ -186,21 +186,22 @@ img {
   color: #13253A;
   font-size: 38px;
   font-weight: 700;
+  padding-bottom: 30px;
 }
 .about__wrapper {
+  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 0 10px;
 }
 .about__description-col1 {
   max-width: 370px;
   font-size: 20px;
   line-height: 30px;
-}
-.about__description-col1 p .ital {
   font-style: italic;
 }
 .about__description-col2 {
@@ -210,6 +211,7 @@ img {
   line-height: 27px;
 }
 .about__list {
+  padding-top: 60px;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,4 +222,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+.about__link {
+  display: block;
+  padding: 0 10px;
 }
