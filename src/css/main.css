@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,102 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.about-us {
+  display: block;
+  margin: 0 auto;
+  max-width: 970px;
+}
+.about-us__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-us__title span {
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #2557ab;
+}
+.about-us__title h1 {
+  font-family: Avenir;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  color: #13253a;
+}
+.about-us__col-1 {
+  max-width: 370px;
+  margin: 0;
+}
+.about-us__col-1 p:first-child {
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13253a;
+  padding-bottom: 20px;
+}
+.about-us__col-2 {
+  max-width: 570px;
+  margin: 0;
+}
+.about-us__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 33px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about-us__text p {
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #13253a;
+  padding-bottom: 30px;
+}
+
+.clients__list {
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+  list-style: none;
+}
+.clients__item {
+  opacity: 1;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
+}
+.clients__item:hover {
+  opacity: 0.5;
 }
