@@ -219,8 +219,8 @@ section {
   font-weight: 600;
   line-height: 23px;
   background: #2557AB;
-  -webkit-box-shadow: 0 10px 20px #13253A;
-          box-shadow: 0 10px 20px #13253A;
+  -webkit-box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 30px 30px rgba(0, 0, 0, 0.3);
   border: none;
   border-radius: 3px;
   padding: 15px 100px;
