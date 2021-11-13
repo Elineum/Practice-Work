@@ -45,12 +45,19 @@
         padding-bottom: 5px;
         margin-bottom: 10px;
         color: white;
+        padding-left: 1px;
+
+        &::placeholder {
+            opacity: 0.7;
+            color: #415E71;
+        }
     }
 
     &__label-area {
         display: flex;
         width: 100%;
         margin-bottom: 10px;
+        padding-left: 1px;
     }
 
     &__textarea {
@@ -65,6 +72,12 @@
         margin-bottom: 36px;
         height: 100px;
         color: white;
+        padding-left: 1px;
+
+        &::placeholder {
+            opacity: 0.7;
+            color: #415E71;
+        }
     }
 
     &__btn {
