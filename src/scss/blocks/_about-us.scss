@@ -4,7 +4,6 @@
    max-width: 970px;
    margin: 0 auto;
 }
-
 &__name{
    text-align: center;
    color: $blue;
@@ -18,8 +17,6 @@
    font-weight: 700;
    padding-bottom: 30px;
 }
-
-
 &__wrapper{
    padding-top: 30px;
    display: flex;
@@ -30,14 +27,20 @@
    max-width: 370px;
    font-size: 20px;
    line-height: 30px;
-   font-style: italic;
    
+   :first-child{
+      font-style: italic;
+      padding-bottom: 27px;
+   }
 }
 &__description-col2{
    max-width: 570px;
    font-size: 16px;
    font-weight: 400;
    line-height: 27px;
+   :first-child{
+      padding-bottom: 27px;
+   }
 }
 &__list{
    padding-top: 60px;
