@@ -8,6 +8,7 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 434px;
+    margin: 0 auto;
 }
 
 
@@ -45,7 +46,8 @@ section{
         font-weight: 600;
         line-height: 23px;
         background: $blue;
-        box-shadow: 0 10px 20px $black;;
+        box-shadow: 0 10px 20px $black;
+        border: none;
         border-radius: 3px;
         padding: 15px 100px;
         cursor: pointer;

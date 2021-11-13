@@ -185,6 +185,7 @@ section {
       -ms-flex-align: center;
           align-items: center;
   min-height: 434px;
+  margin: 0 auto;
 }
 
 .content {
@@ -220,6 +221,7 @@ section {
   background: #2557AB;
   -webkit-box-shadow: 0 10px 20px #13253A;
           box-shadow: 0 10px 20px #13253A;
+  border: none;
   border-radius: 3px;
   padding: 15px 100px;
   cursor: pointer;
