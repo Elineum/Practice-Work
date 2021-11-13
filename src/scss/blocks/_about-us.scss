@@ -1,0 +1,58 @@
+.about{
+   font-size: 15px;
+&__container{
+   max-width: 970px;
+   margin: 0 auto;
+}
+
+&__name{
+   text-align: center;
+   color: $blue;
+   font-size: 16px;
+   font-weight: 400;
+}
+&__title{
+   text-align: center;
+   color: $black;
+   font-size: 38px;
+   font-weight: 700;
+}
+
+
+&__wrapper{
+   display: flex;
+   justify-content: space-between;
+}
+&__description-col1{
+   max-width: 370px;
+   font-size: 20px;
+   line-height: 30px;
+   
+   p .ital{
+      font-style: italic;
+   }
+}
+
+
+
+&__description-col2{
+   max-width: 570px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 27px;
+   
+}
+
+
+&__list{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+   
+
+
+
+}

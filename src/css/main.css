@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,58 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+.about {
+  font-size: 15px;
+}
+.about__container {
+  max-width: 970px;
+  margin: 0 auto;
+}
+.about__name {
+  text-align: center;
+  color: #2557AB;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about__title {
+  text-align: center;
+  color: #13253A;
+  font-size: 38px;
+  font-weight: 700;
+}
+.about__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.about__description-col1 {
+  max-width: 370px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.about__description-col1 p .ital {
+  font-style: italic;
+}
+.about__description-col2 {
+  max-width: 570px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.about__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
