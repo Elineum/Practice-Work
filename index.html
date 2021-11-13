@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <h2 class="container__title">Contact Us</h2>
+        <form class="container-form" action="/my-handling-form-page" method="post">
+            <ul class="container-form__list">
+                <li class="container-form__item">
+                    <label class="label" for=" name">Full Name:</label>
+                    <input class="input" placeholder="Ram Kaji" type="text" id="name" name="name">
+                </li>
+                <li class="container-form__item">
+                    <label class="label" for="mail">Your Email Address</label>
+                    <input class="input" placeholder="hello@lastdoor.store" type="email" id="mail" name="user_mail">
+                </li>
+                <li class="container-form__item">
+                    <label class="label" for="msg">Your Message</label>
+                    <textarea class="input taxtera" placeholder="Type your message here..." id="msg" name="user_message"></textarea>
+                </li>
+            </ul>
+        </form>
+        <button class="container__btn">Submit Your Message</button>
+    </section>
+</body>
+</html>
