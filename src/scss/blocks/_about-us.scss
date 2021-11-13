@@ -3,7 +3,6 @@
 }
 
 .about-us {
-
     &__heading-text {
         display: flex;
         flex-direction: column;
@@ -15,7 +14,7 @@
     &__small-text {
         text-transform: capitalize;
         font-weight: 500;
-        color: #2557AB;
+        color: $blue;
         margin-bottom: 3px;
     }
 
