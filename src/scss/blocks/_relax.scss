@@ -1,0 +1,107 @@
+.container {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right top 100px;
+    margin: 0 auto;
+}
+
+.relax {             
+    &__block {
+        display: flex;
+        border-top: 1px solid grey;
+        padding: 100px 0;
+        position: relative;
+        max-width: 1170px;
+        max-height: 450px;
+    }
+
+    &__col1 {
+        flex-wrap: wrap;
+    }
+    
+    
+    &__title {
+        margin-bottom: 28px;
+        max-width: 320px;
+        max-height: 104px;
+        font-weight: 600;
+    }
+
+    &__title-tex {
+        font-size: 38px;
+        line-height: 50px;
+        letter-spacing: 1px;
+        
+    }
+
+    &__dlorem {
+        margin-bottom: 14px;
+        max-width: 470px;
+        max-height: 81px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    &__item {
+        letter-spacing: -0.5px;
+        line-height: 39px;
+        padding-left: 32px;
+        max-width: 470px;
+        max-height: 105px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    &__list {
+        list-style: none;
+        position: relative;
+
+        li:first-child {
+            &::before {
+                content: '';
+                position: absolute;
+                width: 14px;
+                height: 7px;
+                top: 9px;
+                left: -34px;
+                transform: rotate(-52deg);
+                border-left: 3px solid $orange;
+                border-bottom: 3px solid $orange;
+            }        
+        }
+
+        li:nth-child(2) {
+            &::before {
+                content: '';
+                position: absolute;
+                width: 14px;
+                height: 7px;
+                top: 49px;
+                left: -34px;
+                transform: rotate(-52deg);
+                border-left: 3px solid $orange;
+                border-bottom: 3px solid $orange;
+            }        
+        }
+        
+        li:last-child {
+            &::before {
+                content: '';
+                position: absolute;
+                width: 14px;
+                height: 7px;
+                top: 89px;
+                left: -34px;
+                transform: rotate(-52deg);
+                border-left: 3px solid $orange;
+                border-bottom: 3px solid $orange;
+            }        
+        }
+    }
+
+    &__imeg {
+        padding-left: 100px;
+        max-width: 600px;
+        max-height: 450px;
+    }
+}
