@@ -195,11 +195,19 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .about__description-col1 {
   max-width: 370px;
   font-size: 16px;
   line-height: 29px;
+}
+@media screen and (max-width: 940px) {
+  .about__description-col1 {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 .about__description-col1 :first-child {
   font-style: italic;
@@ -212,6 +220,12 @@ img {
   font-size: 16px;
   font-weight: 400;
   line-height: 27px;
+}
+@media screen and (max-width: 940px) {
+  .about__description-col2 {
+    max-width: 100%;
+    text-align: center;
+  }
 }
 .about__description-col2 :first-child {
   padding-bottom: 27px;
