@@ -185,6 +185,7 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #f4f6f7;
+  padding-top: 158px;
 }
 .grow__bussines {
   display: -webkit-box;
@@ -198,7 +199,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 734px;
 }
 .grow__bussines-description-holder {
   display: -webkit-box;
@@ -213,18 +213,20 @@ img {
 .grow__bussines-some-text {
   font-weight: 500;
   font-size: 16px;
+  line-height: 22px;
   color: #2557ab;
-  padding: 15px 15px 5px 15px;
+  padding: 70px 15px 5px 17px;
 }
 .grow__bussines-title {
   font-weight: 700;
   font-size: 32px;
+  line-height: 63px;
   padding: 0 15px;
 }
 .grow__bussines-text {
-  padding: 10px 15px 20px;
+  line-height: 27px;
+  padding: 10px 15px 20px 15px;
   max-width: 470px;
-  min-height: 81px;
 }
 .grow__bussines-btn {
   display: -webkit-inline-box;
@@ -238,23 +240,20 @@ img {
           justify-content: center;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 19px 49px 18px 49px;
+  padding: 19px 42px 18px;
   border-radius: 3px;
   background-color: #ff7f57;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 17px;
+  line-height: 23px;
   color: white;
-  margin-left: 15px;
+  margin: 0 0 270px 15px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 .grow__bussines-btn:hover {
   opacity: 0.7;
 }
-.grow__bussines-img-holder {
-  padding: 15px;
-}
-
 .bussines {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -336,10 +335,16 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
-  padding: 0 25px;
+  margin: 0 17px;
   padding-bottom: 3px;
   font-size: 14px;
   font-weight: 600;

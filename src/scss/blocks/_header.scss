@@ -46,9 +46,11 @@
 
   &__link {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     position: relative;
-    padding: 0 25px;
+    margin: 0 17px;
     padding-bottom: 3px;
     font-size: 14px;
     font-weight: 600;
