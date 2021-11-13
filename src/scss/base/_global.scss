@@ -1,15 +1,21 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Avenir', sans-serif;
+  font-family: "Avenir", sans-serif;
 }
 
 .container {
-    max-width: 1170px;
+  max-width: 1170px;
+  width: 100%;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
