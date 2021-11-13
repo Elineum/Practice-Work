@@ -184,28 +184,27 @@ img {
 .about__title {
   text-align: center;
   color: #13253A;
-  font-size: 38px;
+  font-size: 26px;
   font-weight: 700;
-  padding-bottom: 30px;
+  padding-bottom: 37px;
 }
 .about__wrapper {
-  padding-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 10px;
 }
 .about__description-col1 {
   max-width: 370px;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 16px;
+  line-height: 29px;
 }
 .about__description-col1 :first-child {
   font-style: italic;
-  padding-bottom: 27px;
+  padding-bottom: 20px;
+  font-size: 20px;
 }
 .about__description-col2 {
   max-width: 570px;
@@ -234,5 +233,4 @@ img {
 }
 .about__link {
   display: block;
-  padding: 0 10px;
 }

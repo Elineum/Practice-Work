@@ -13,27 +13,29 @@
 &__title{
    text-align: center;
    color: $black;
-   font-size: 38px;
+   font-size: 26px;
    font-weight: 700;
-   padding-bottom: 30px;
+   padding-bottom: 37px;
 }
 &__wrapper{
-   padding-top: 30px;
+   // padding-top: 35px;
    display: flex;
    justify-content: space-between;
-   padding: 0 10px;
+   // padding: 0 0px;
 }
 &__description-col1{
    max-width: 370px;
-   font-size: 20px;
-   line-height: 30px;
+   font-size: 16px;
+   line-height: 29px;
    
    :first-child{
       font-style: italic;
-      padding-bottom: 27px;
+      padding-bottom: 20px;
+      font-size: 20px;
    }
 }
 &__description-col2{
+   // padding-left: 5px;
    max-width: 570px;
    font-size: 16px;
    font-weight: 400;
@@ -53,6 +55,6 @@
 }
 &__link{
    display: block;
-   padding: 0 10px;
+   // padding: 0 10px;
 }
 }
