@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,109 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+.contact-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #11364E;
+  text-align: center;
+}
+
+.container {
+  max-width: 380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5px;
+}
+
+.form {
+  color: white;
+  font-size: 13px;
+}
+.form h2 {
+  padding-top: 140px;
+  font-size: 38px;
+  color: white;
+  margin-bottom: 34px;
+  font-weight: 400;
+}
+.form__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form__input {
+  font-size: 16px;
+  position: relative;
+  outline: none;
+  border: none;
+  min-height: 22px;
+  border-bottom: 1px solid #4D687A;
+  background: none;
+  width: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: white;
+}
+.form__label-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form__textarea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+  border-bottom: 1px solid #4D687A;
+  outline: none;
+  background: none;
+  font-size: 16px;
+  resize: none;
+  width: 100%;
+  margin-bottom: 36px;
+  height: 100px;
+  color: white;
+}
+.form__btn {
+  background-color: #FF7F57;
+  padding: 19px 100px;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 158px;
+  cursor: pointer;
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.form__btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.form__area-holder {
+  padding-top: 40px;
+}
+
+.footer {
+  background-color: #13253A;
+  text-align: center;
+  color: #D0D3D8;
+  font-size: 12px;
+  padding: 15px;
 }
