@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,113 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+.our-services {
+  font-family: "Avenir";
+  min-height: 810px;
+}
+.our-services__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  font-weight: 500;
+  color: #2557ab;
+  margin-bottom: 5px;
+  padding-right: 9px;
+}
+.our-services__title {
+  font-size: 38px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 160px;
+}
+.box__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 45px 0 45px;
+  max-width: 370px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.box__flex-text h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  padding: 17px 0 6px 0;
+}
+.box__flex-icon {
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-right: 13px;
+}
+.box__flex-desc {
+  line-height: 27px;
+}
+
+.date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #f4f6f7;
+  margin-bottom: 100px;
+}
+.date___item-p {
+  line-height: 22px;
+  color: #2557ab;
+  font-weight: 500;
+}
+.date___item-items {
+  font-size: 46px;
+  letter-spacing: 6.4px;
+}
+.date___item-items i {
+  color: #FF7F57;
+  font-size: 24px;
+}
+
+.date___item {
+  margin: 0 50px 0 50px;
 }
