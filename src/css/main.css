@@ -126,6 +126,10 @@ body {
   font-family: "Avenir", sans-serif;
 }
 
+.container {
+  max-width: 1170px;
+}
+
 img {
   max-width: 100%;
 }
@@ -162,4 +166,98 @@ img {
 
 .icon-people:before {
   content: "";
+}
+
+.container {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right top 100px;
+  margin: 0 auto;
+}
+
+.relax__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid grey;
+  padding: 100px 0;
+  position: relative;
+  max-width: 1170px;
+  max-height: 450px;
+}
+.relax__col1 {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.relax__title {
+  margin-bottom: 28px;
+  max-width: 320px;
+  max-height: 104px;
+  font-weight: 600;
+}
+.relax__title-tex {
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.relax__dlorem {
+  margin-bottom: 14px;
+  max-width: 470px;
+  max-height: 81px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.relax__item {
+  letter-spacing: -0.5px;
+  line-height: 39px;
+  padding-left: 32px;
+  max-width: 470px;
+  max-height: 105px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.relax__list {
+  list-style: none;
+  position: relative;
+}
+.relax__list li:first-child::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  top: 9px;
+  left: -34px;
+  -webkit-transform: rotate(-52deg);
+          transform: rotate(-52deg);
+  border-left: 3px solid #FF7F57;
+  border-bottom: 3px solid #FF7F57;
+}
+.relax__list li:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  top: 49px;
+  left: -34px;
+  -webkit-transform: rotate(-52deg);
+          transform: rotate(-52deg);
+  border-left: 3px solid #FF7F57;
+  border-bottom: 3px solid #FF7F57;
+}
+.relax__list li:last-child::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 7px;
+  top: 89px;
+  left: -34px;
+  -webkit-transform: rotate(-52deg);
+          transform: rotate(-52deg);
+  border-left: 3px solid #FF7F57;
+  border-bottom: 3px solid #FF7F57;
+}
+.relax__imeg {
+  padding-left: 100px;
+  max-width: 600px;
+  max-height: 450px;
 }
