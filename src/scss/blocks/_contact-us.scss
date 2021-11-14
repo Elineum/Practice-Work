@@ -1,0 +1,76 @@
+.container {
+    min-height: 100vh;
+    max-width: 1440px;
+    width: 100%;
+    padding:  15px;
+    margin: 0 auto; 
+    background-color: #11364E ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &__title{
+        padding-bottom: 30px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 38px;
+        line-height: 52px;
+        letter-spacing: 0.7px;
+        color: #FFFFFF;
+    }
+
+    .container-form{
+        width: 370px;
+    }
+     
+    .container-form__item {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        max-width: 371px;
+        justify-content: flex-start;
+        
+        .label {    
+            font-family: Avenir Next;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 18px;
+            color: #FFFFFF;
+            padding-bottom: 22px;
+        }    
+    }
+
+    .input {
+        background-color: #11364E ;
+        border: none;
+        border-bottom: 1px solid rgb(214, 212, 212);
+        opacity: 0.7;
+    }
+
+    .taxtera{
+        padding-bottom: 46px;
+    }
+
+    &__btn {
+        padding: 20px 100px;
+        background-color: #FF7F57;
+        font-family: Avenir Next;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: 0.7px;
+        transition: 1s;
+        outline: none;
+        border: none;
+
+        &:hover {
+            opacity: 0.9;
+            background-color: rgb(139, 114, 103);
+            cursor: pointer;
+        }
+    }  
+}
